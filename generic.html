@@ -11,6 +11,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+
+		<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+
+		<script>
+			L2Dwidget.init({ 
+				"model": { "jsonPath":"https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json", "scale": 1, "hHeadPos":0.5, "vHeadPos":0.618 },
+				"display": { "position": "right", "width": 100, "height": 200, "hOffset": 0, "vOffset": 0 }, 
+				"mobile": { "show": true, "scale": 0.5 },
+				"react": { "opacityDefault": 0.7, "opacityOnHover": 0.2 } 
+				});
+		</script>
+		<script>
+			WIDGET = {
+			  "CONFIG": {
+				"modules": "01234",
+				"background": "1",
+				"tmpColor": "FFFFFF",
+				"tmpSize": "16",
+				"cityColor": "FFFFFF",
+				"citySize": "16",
+				"aqiColor": "FFFFFF",
+				"aqiSize": "16",
+				"weatherIconSize": "24",
+				"alertIconSize": "18",
+				"padding": "10px 10px 10px 10px",
+				"shadow": "1",
+				"language": "auto",
+				"borderRadius": "5",
+				"fixed": "true",
+				"vertical": "top",
+				"horizontal": "left",
+				"left": "10",
+				"top": "10",
+				"key": "0f0929896e2c4cefa1767abc53fd219a"
+			  }
+			}
+			</script>
+			<script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -68,7 +108,22 @@
 							<p>由于百度这个网页插件生成器过于古老，且无人维护，复制代码还是用的flash，只能在IE中打开</p>
 							<p>好吧，经过上传到GitHub page上测试完后，发现该地图框架依旧不能使用，虽然本地运行尚可。或许是太过年久失修了吧。就保留在这里吧。</p>
 							<p>新版的好像要用百度地图的开发者API进行操作，这方面我只知道皮毛I have only scratched the  surface，留待以后吧</p>
-							
+
+							<p></p>
+
+							<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us">here？但可惜估计是因为网络的问题，无法实现成功，只能在必应搜索中“疫情”会出现相关成品</div>
+
+							<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us"></div>
+
+							<p></p>
+							<a href="https://widget.qweather.com/create-simple/#name-box">创建简约版天气插件
+								小巧的天气插件，支持任何网页任何位置</a>
+							<div id="he-plugin-simple"></div>
+
+							<p></p>
+							<a href="https://github.com/microsoft/COVID-19-Widget">这是来自于必应的一个疫情地图小插件，看起来挺美观的</a>
+							<p></p>
+							<a href="https://blog.csdn.net/zadaya/article/details/105720645">为自己的网页添加L2Dwidget.js看板娘和页面吸附球</a>
 						</div>
 					</div>
 
